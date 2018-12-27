@@ -4,5 +4,5 @@ end
 
 
 def batch_badge_creator(name)
-  "Hello, my name is #{name}."
+  badge_maker(name)
 end

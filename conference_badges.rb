@@ -18,3 +18,7 @@ arr.push(message)
 end
 arr
 end
+
+
+def printer
+end

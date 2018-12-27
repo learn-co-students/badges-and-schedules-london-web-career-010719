@@ -11,9 +11,7 @@ end
 
 
 def assign_rooms(array)
-name_index = 0
-until name_index < array.length
-"index #{name_index} is #{array[name_index]}."
-name_index += 1
+array.each.with_index(1) do |name, index|
+puts "Hello, #{name}! You'll be assigned to room #{index}"
 end
 end

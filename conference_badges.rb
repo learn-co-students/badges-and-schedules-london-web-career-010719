@@ -21,5 +21,9 @@ end
 
 
 def printer(array)
-  puts batch_badge_creator(array)
+  index = 0
+  until index < array.length
+    puts batch_badge_creator(array[index])
+  end
+end
 end

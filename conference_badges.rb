@@ -10,7 +10,10 @@ arr
 end
 
 
-def assign_rooms(array)
-  integer = 1
-  puts batch_badge_creator
+def assign_room(array)
+name_index = 0
+until name_index < array.length
+puts "index #{name_index} is #{array[name_index]}."
+name_index += 1
+end
 end

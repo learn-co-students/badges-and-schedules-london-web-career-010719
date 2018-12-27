@@ -20,5 +20,6 @@ arr
 end
 
 
-def printer
+def printer(array)
+  batch_badge_creator(array)
 end

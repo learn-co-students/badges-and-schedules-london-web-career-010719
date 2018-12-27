@@ -11,4 +11,6 @@ end
 
 
 def assign_rooms(array)
+  integer = 1
+  puts batch_badge_creator
 end

@@ -20,9 +20,7 @@ arr
 end
 
 
-def printer(array)
-  index = 0
-  until index < array.length
-    puts batch_badge_creator(array[index])
-  end
+def printer(attendees)
+  batch_badge_creator(attendees).each {|badge| puts badge}
+  assign_rooms(attendees).each {|room| puts room}
 end

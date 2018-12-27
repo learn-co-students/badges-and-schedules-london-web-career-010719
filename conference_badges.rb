@@ -21,7 +21,5 @@ end
 
 
 def printer(array)
-  integer = 0
-  while integer < 7
-  puts batch_badge_creator(array[integer])
-  integer++
+  puts batch_badge_creator(array)
+end

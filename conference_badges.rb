@@ -13,7 +13,7 @@ end
 def assign_rooms(array)
 name_index = 0
 until name_index < array.length
-puts "index #{name_index} is #{array[name_index]}."
+ "index #{name_index} is #{array[name_index]}."
 name_index += 1
 end
 end

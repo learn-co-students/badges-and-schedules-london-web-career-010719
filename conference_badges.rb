@@ -8,3 +8,7 @@ arr = []
 array.each {|i|  arr.push("Hello, my name is #{i}.")}
 arr
 end
+
+
+def assign_rooms(array)
+end

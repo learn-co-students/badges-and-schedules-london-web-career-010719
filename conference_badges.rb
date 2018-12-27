@@ -11,7 +11,10 @@ end
 
 
 def assign_rooms(array)
+arr = []
 array.each.with_index(1) do |name, index|
- "Hello, #{name}! You'll be assigned to room #{index}"
+message =  "Hello, #{name}! You'll be assigned to room #{index}"
+arr.push(message)
 end
+arr
 end
